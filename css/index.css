@@ -1,0 +1,153 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    background: #0f0e0c;
+    background-image: linear-gradient(90deg, #6d05b3 0%, #f8aaaa 46%, #700069 100%);
+    background-size: 100% 100%;
+}
+
+header{
+    position: fixed;
+    margin-bottom: 10px;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 30px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 0;
+    z-index: 100;
+    background: var(--secondary-color);
+    border-radius: 0 0 1em 1em;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 10%);
+}
+
+h2{
+    color: var(--primary-color);
+    font-size: 2em;
+    font-weight: 600;
+}
+
+.navigation a{
+    text-decoration: none;
+    color: var(--primary-color);
+    padding: 6px 15px;
+    border-radius: 20px;
+    margin: 0 10px;
+    font-weight: 600;
+}
+
+.navigation a:hover,
+.navigation a:active{
+    background: var(--primary-color);
+    color: var(--secondary-color);
+}
+
+
+#nightmode i{
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+    display: inline-flex;
+}
+
+
+
+:root{
+    --primary-color:#3d0039;
+    --secondary-color:#fff;
+
+    
+}
+
+#container{
+    position: relative;
+    float: left;
+    background-color: rgba(255, 255, 255, 0.219);
+    backdrop-filter: blur(2px);
+    border-radius: 25px;
+    
+    margin-left: 20px;
+
+}
+
+.container1{
+    width: 300px;
+    height: 550px;
+    margin-top: 120px;    
+}
+
+.container2{
+    width: 600px;
+    height: 550px;
+    margin-top: 120px;
+}
+
+.container3{
+    width: 500px;
+    height: 265px;
+    margin-top: 120px;    
+}
+
+.container4{
+    width: 500px;
+    height: 265px;
+    margin-top: 20px;
+}
+
+
+
+
+
+
+
+::-webkit-scrollbar{
+    width: .8em;
+}
+
+::-webkit-scrollbar-track{
+    background-color: var(--black);
+}
+
+::-webkit-scrollbar-thumb{
+    background-color: var(--helper);
+    background: var(--primary-color);
+    border-radius: .5rem;
+    border: .8rem solid transparent;
+    background-clip: content-box;
+}
+
+::-webkit-scrollbar-thumb:hover{
+    background-color: var(--helper-tint);
+    background: rgba(255, 255, 255, 0.7);
+}
+
+#expmlesdaa{
+    position: absolute;
+    margin-top: 800px;
+}
+
+
+#plusbtn {
+    position: fixed;
+    bottom: 20px; /* Adjust as needed */
+    left: 50%;
+    /* transform: translateX(-50%); */
+    color: #fff;
+
+    margin-bottom: 20px;
+    font-size: 5em;
+    /* Add other styles as needed */
+}
+
+#plusbtn:hover{
+    
+    color: #6d05b3;
+    transform: translate(0px, -5px);
+}
+
+
+#etLogo{
+    height:3rem;
+}
