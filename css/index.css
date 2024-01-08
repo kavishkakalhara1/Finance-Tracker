@@ -7,7 +7,7 @@ body{
 
 header{
     position: fixed;
-    margin-bottom: 10px;
+    display:block;
     top: 0;
     left: 0;
     width: 100%;
@@ -68,31 +68,31 @@ h2{
     backdrop-filter: blur(2px);
     border-radius: 25px;
     
-    margin-left: 20px;
+    margin-left: 1.5em;
 
 }
 
 .container1{
-    width: 300px;
-    height: 550px;
+    width: 15%;
+    height: 30em;
     margin-top: 120px;    
 }
 
 .container2{
-    width: 600px;
-    height: 550px;
+    width: 40%;
+    height: 30em;
     margin-top: 120px;
 }
 
 .container3{
-    width: 500px;
-    height: 265px;
+    width: 30%;
+    height: 14.25em;
     margin-top: 120px;    
 }
 
 .container4{
-    width: 500px;
-    height: 265px;
+    width: 30%;
+    height: 14.25em;
     margin-top: 20px;
 }
 
@@ -150,4 +150,28 @@ h2{
 
 #etLogo{
     height:3rem;
+}
+
+
+.sidenav{
+    position: fixed;
+    width: 10%;
+    display: none;
+    height: 80%;
+    margin-bottom: 0;
+    margin-left: 0;
+}
+
+@media screen and (min-width: 600px) {
+    .container{
+        display: block;
+    }
+    
+}
+
+@media screen and (max-width: 1000px) {
+    .container{
+        display: none;
+    }
+    
 }
