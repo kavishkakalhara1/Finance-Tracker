@@ -19,6 +19,7 @@
 
     <!-- css style -->
     <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/style.css">
 
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
 
@@ -52,12 +53,42 @@
         </div>
     </div>
 
+<!-- Tracking Form -->
+
 
     <div class="container2" id="container">
         <div class="row main mt-5">
-            <!-- sign up form section -->
+            
             <div class="col-md p-5" id="signup">
-                Adding New Transactions
+                <div class="econtainer"> 
+                    <form id="expense-form"> 
+                        <input type="text"
+                            id="expense-name"
+                            placeholder="Expense Name" required /> &nbsp;
+                        <input type="number"
+                            id="expense-amount"
+                            placeholder="Amount" required /> &nbsp;
+                        <button type="submit"> 
+                            Add
+                        </button> 
+                    </form> 
+                    <div class="expense-table"> 
+                        <table> 
+                            <thead> 
+                                <tr> 
+                                    <th>Expense Name</th> 
+                                    <th>Amount</th> 
+                                    <th>Action</th> 
+                                </tr> 
+                            </thead> 
+                            <tbody id="expense-list"></tbody> 
+                        </table> 
+                        <div class="total-amount"> 
+                            <strong>Total:</strong> 
+                            Rs.<span id="total-amount">0</span> 
+                        </div> 
+                    </div> 
+                </div> 
             </div>
         </div>
     </div>
@@ -84,14 +115,12 @@
     <a href=""><i class="fa-solid fa-circle-plus fa-beat" id="plusbtn"></i></a>
 
     <br>
-    <p id="expmlesdaa">expmlesdaa
-        <datagrid><datagrid><datagrid><datagrid>da</datagrid></datagrid></datagrid></datagrid>
-    </p>
+    
 
     <div class="sidenav">dsdfsfdsfddsfsfsfsfdsfdsfs</div>
 
     
 
-
+<script src="js/script.js"></script>
 </body>
 </html>
